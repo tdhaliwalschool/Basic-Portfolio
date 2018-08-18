@@ -8,6 +8,7 @@
 p { 
     padding-left:5px; }
 
+
 .name{
   h2{
   float: none;
@@ -15,24 +16,21 @@ p {
   top: 0;
   right: 0;
   margin-left: 10%;
-  margin-right: 10%;
+  margin-right: 20%;
   padding: 2px;
        }
   }
 
- h2{
-  float: none;
-  height:0;
-  top: 0;
-  right: 0;
-  margin-left: 10%; 
-  margin-right: 10%;
-  padding-bottom: 1%;
- }
+  h2{
+    float: none;
+    height:0;
+    top: 0;
+    right: 0;
+    margin-left: 10%; 
+    margin-right: 10%;
+    padding-bottom: 1%;
+   }
 
- h3{
-
- }
  .img {
   float:left;
   padding-right:10px; 
@@ -87,7 +85,8 @@ p {
 
  .containerMain {
      clear:both;
-      background-color:brown;
+      /* background-color:brown; */
+      background-image: url("dark-grey-terrazzo.png"); /* The image used */
       border-bottom-color: aqua;
       border-bottom-width: 50px;
 
